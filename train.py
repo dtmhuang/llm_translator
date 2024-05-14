@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
     # training args
     training_args = Seq2SeqTrainingArguments(
-        output_dir="my_awesome_opus_books_model",
+        output_dir="t5_opus_books_de_en_model",
         evaluation_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=16,
