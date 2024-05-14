@@ -14,7 +14,8 @@ if __name__ == '__main__':
     # text = "translate English to German: "
 
     # the actual text to be translated
-    text += "Bitteschön, Auf Wiedersehen!"
+    # text += "Bitteschön, Auf Wiedersehen!"
+    text += "Es war ganz unmöglich, an diesem Tage einen Spaziergang zu machen."
 
     # tokenizes the text
     inputs = tokenizer(text, return_tensors="pt").input_ids
