@@ -15,7 +15,7 @@ You can install them in a conda environment or by using pip with a native python
     * `conda activate [env_name]`: you will have to run this to activate the environment
     * `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`
     * There may be some trouble with the transformers, so you may also have to install transformers using pip
-    * `pip install transformers[torch]`
+    * `pip install git+https://github.com/huggingface/transformers`
 * `pip install transformers datasets evaluate sacrebleu`
 
 To run the training script, type `python train.py`
