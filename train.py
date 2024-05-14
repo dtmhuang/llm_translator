@@ -59,6 +59,7 @@ if __name__ == '__main__':
     
     # get training split
     dataset = dataset['train'].train_test_split(test_size=0.2)
+    # print(dataset['train'][0])
 
     # t5 tokenizer processes the language pairs
     checkpoint = 'google-t5/t5-small'
@@ -87,7 +88,7 @@ if __name__ == '__main__':
         num_train_epochs=2,
         predict_with_generate=True,
         fp16=True,
-        push_to_hub=True,
+        push_to_hub=False,
     )
 
     # get the training thing???
