@@ -2,9 +2,9 @@
 
 just a demo for me to learn more about LLMs with a friend
 
-our end goal is potentially to put it on the app store? might be a little ambitious
+our end goal is just to have it usable by friends in a discord bot integration
 
-current goal is to train an LLM from scratch to learn more about neural networks
+current goal is to fine tune a pretrained LLM to learn more about LLMs
 
 ## Instructions
 
